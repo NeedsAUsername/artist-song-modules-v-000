@@ -1,5 +1,5 @@
 require_relative '../config/environment.rb'
-require_relative '../lib/concerns/memorbale.rb'
+require_relative '../lib/concerns/memorable.rb'
 
 class Artist
   extend Memorable
