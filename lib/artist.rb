@@ -1,4 +1,4 @@
-require_relative 'concerns/memorable.rb'
+require_relative 'concerns'
 
 class Artist
   extend Memorable
