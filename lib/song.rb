@@ -1,4 +1,4 @@
-require '../concerns/environment'
+require '../config/environment'
 
 class Song
     extend Memorable
