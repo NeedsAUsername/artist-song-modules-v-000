@@ -1,4 +1,6 @@
-Dir['../lib/concerns'].each {|file| require file}
+Dir[File.join(".","**/*.rb")].each do |f|
+    require f
+end 
 
 class Artist
   extend Memorable
