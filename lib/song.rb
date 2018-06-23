@@ -2,8 +2,10 @@ require_relative 'concerns/memorable.rb'
 require_relative 'concerns/findable.rb'
 require_relative 'concerns/paramable.rb'
 
+
 class Song
-    extend Memorable
+    extend Memorable::ClassMethods
+    include Memorable::InstaneMethods
     extend Findable
     include Paramable
 
