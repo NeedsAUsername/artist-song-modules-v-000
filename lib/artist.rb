@@ -1,4 +1,4 @@
-require '../environment.rb'
+require '../concerns/environment'
 
 class Artist
     extend Memorable
