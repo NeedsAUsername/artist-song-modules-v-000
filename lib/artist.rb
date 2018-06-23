@@ -1,6 +1,6 @@
 Dir[File.join(".","**/*.rb")].each do |f|
-    require f
-end 
+    require_relative f
+end
 
 class Artist
   extend Memorable
