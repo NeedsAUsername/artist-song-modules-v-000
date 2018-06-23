@@ -3,7 +3,7 @@ require_relative 'concerns/findable.rb'
 require_relative 'concerns/paramable.rb'
 
 class Artist
-    
+
   extend Memorable::ClassMethods
   include Memorable::InstaneMethods
   extend Findable
@@ -19,7 +19,7 @@ class Artist
   # end
 
   def initialize
-    self.class.all << self
+    super
     @songs = []
   end
 
