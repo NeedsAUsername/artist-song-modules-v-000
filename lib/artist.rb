@@ -1,5 +1,6 @@
 require_relative 'concerns/memorable.rb'
 require_relative 'concerns/findable.rb'
+require_relative 'concerns/paramble.rb'
 
 class Artist
   extend Memorable
