@@ -1,4 +1,4 @@
-Dir['concerns'].each {|file| require_relative file}
+Dir['../lib/concerns'].each {|file| require_relative file}
 
 class Artist
   extend Memorable
