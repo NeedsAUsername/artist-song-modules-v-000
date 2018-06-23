@@ -3,7 +3,9 @@ require_relative 'concerns/findable.rb'
 require_relative 'concerns/paramable.rb'
 
 class Artist
-  extend Memorable
+    
+  extend Memorable::ClassMethods
+  include Memorable::InstaneMethods
   extend Findable
   include Paramable
 
