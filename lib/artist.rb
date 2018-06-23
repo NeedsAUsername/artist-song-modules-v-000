@@ -1,4 +1,4 @@
-require '../config/environment'
+require '../config/environment.rb'
 
 class Artist
     extend Memorable
