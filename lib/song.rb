@@ -1,4 +1,4 @@
-require_relative 'concerns/memorbale.rb'
+require_relative 'concerns/memorable.rb'
 
 class Song
     extend Memorable
