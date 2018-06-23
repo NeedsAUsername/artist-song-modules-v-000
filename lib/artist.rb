@@ -1,4 +1,4 @@
-require_relative 'concerns'
+require_relative 'concerns/all'
 
 class Artist
   extend Memorable
